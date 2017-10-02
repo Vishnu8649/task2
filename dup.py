@@ -1,3 +1,5 @@
+#chap2 -problem 11
+
 def dup(L):
     L1=[]
     for x in L:

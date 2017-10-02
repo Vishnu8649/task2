@@ -1,3 +1,4 @@
+#chap2- problem 3,4
 def product(L):
     p=1
     for x in L:

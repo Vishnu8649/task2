@@ -1,3 +1,4 @@
+#chap2- problem12
 def group(L,s):
     L1=[]
     c=0

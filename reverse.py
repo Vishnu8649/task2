@@ -1,3 +1,4 @@
+#chap2-problem 6
 def reverse(L):
     i=-1
     L1=[]
