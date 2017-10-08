@@ -9,6 +9,5 @@ def array(n,m):
             None values   
 
     '''
-    d=[None for x in range(m)]
-    a=[d for x in range(n)]
+    a=[[None for x in range(m)] for x in range(n)]
     return a

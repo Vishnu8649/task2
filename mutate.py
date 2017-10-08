@@ -18,7 +18,6 @@ def mutate(s):
             else :
                 c=s[:a]+x
             d.append(c)
-    d1=[]
     for x in range(len(s)):
         if x==len(s)-1:
             c=s[x]+s[1:x]+s[0]
