@@ -2,3 +2,4 @@
 import os
 def ls(dir):
     os.system('ls '+dir)
+ls('./')

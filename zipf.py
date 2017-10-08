@@ -1,7 +1,12 @@
-
+#chap3- problem 11
 import zipfile,sys
 
 def zipf():
+    '''
+    compresses given files to 
+    new zipfile     
+        
+    '''
     f=sys.argv[2:]
     z=sys.argv[1]
     if z.split('.')[-1]!='zip':

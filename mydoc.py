@@ -1,6 +1,12 @@
+#chap3- problem 12
 import sys,inspect
 
 def mydoc():
+    '''
+    Prints descriptions and functions 
+    of a given module 
+
+    '''
     mod=sys.argv[-1]
     f=__import__(mod)
     print 'Help on module',mod
